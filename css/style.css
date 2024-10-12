@@ -1,0 +1,15 @@
+/* Other CSS file imports */
+
+@import url(sections/header.css);
+@import url(sections/hero.css);
+@import url(sections/products.css);
+@import url(sections/about.css);
+@import url(sections/feature.css);
+@import url(sections/menu.css);
+@import url(sections/book-table.css);
+@import url(sections/testimonial.css);
+@import url(sections/insta-fead.css);
+@import url(sections/footer.css);
+
+@import url(base.css);
+@import url(queries.css);

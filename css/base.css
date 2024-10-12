@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* CSS variables for reusablity across all files */
+:root {
+  --sora: 'Sora', sans-serif;
+  --inter: 'Inter', sans-serif;
+  --rubik: 'Rubik', sans-serif;
+
+  --light-beige: #fdf1e9;
+  --dark-orange: #cf711f;
+  --orange: #e67e22;
+
+  --black: #000000;
+  --white: #ffffff;
+
+  --darker-gray: #555;
+  --very-dark-gray: #333;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+
+  /* 10px / 16px = 0.625 = 62.5 */
+  /* percentage of user's browser font-size setting; */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--rubik);
+  line-height: 1;
+  font-weight: 400;
+  color: var(--darker-gray);
+}
