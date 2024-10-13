@@ -1,0 +1,87 @@
+.header {
+  padding: 2.5rem 0;
+  background-color: var(--light-beige);
+}
+
+.navbar {
+  max-width: 160rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 16rem;
+}
+
+.nav-wrap {
+  display: flex;
+  gap: 4rem;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+.nav-link {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: var(--very-dark-gray);
+  line-height: 150%;
+
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: var(--dark-orange);
+}
+
+.nav-cart-wrap {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.cart {
+  position: relative;
+}
+
+.cart-item {
+  width: 1.4rem;
+  height: 1.4rem;
+  color: var(--white);
+  font-size: 1.2rem;
+  background-color: #e53b50;
+  /* background-color: var(--orange); */
+  border-radius: 50%;
+  place-items: center;
+  display: grid;
+  position: absolute;
+  top: -5%;
+  right: -10%;
+}
+
+.btn-book-table:link,
+.btn-book-table:visited {
+  display: inline-block;
+
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: var(--white);
+
+  background-color: var(--orange);
+  padding: 1.5rem 2.4rem;
+  border-radius: 4rem;
+
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.btn-book-table:hover {
+  background-color: var(--dark-orange);
+}
