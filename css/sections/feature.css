@@ -1,0 +1,47 @@
+.section-feature {
+  padding: 12rem 0;
+}
+
+.feature {
+  width: 100%;
+  max-width: 145rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.feature-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.feature-block {
+  grid-column-gap: 2rem;
+  align-items: center;
+  display: flex;
+}
+
+.feature-icon {
+  width: 100%;
+  max-width: 8rem;
+  max-height: 6.5rem;
+}
+
+.feature-title {
+  margin-bottom: 0.4rem;
+}
+
+.feature-title {
+  color: var(--title);
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family: Sora, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.single-text {
+  font-size: 14px;
+  line-height: 2rem;
+}
